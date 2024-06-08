@@ -3,4 +3,186 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
-}
+  }
+  
+  main {
+    padding: 40px 40px 40px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(45, 12, 68));;
+    gap:20px;
+  }
+  
+  #page-title{
+    text-align: center;
+    color: gray;
+  }
+  
+  #featured{
+    color: gray;
+  }
+  
+  
+  header {
+    padding : 20px 20px 20px 80px;
+    background-color: black;
+    font-family: cursive;
+    font-size: 30px;
+  }
+  
+  .heart:hover{
+    background: red;
+  }
+  
+  .likedHeart {
+    background-color: red;
+  }
+  
+  footer {
+    padding: 5px 5px 10px 5px;
+    background-color: rgb(0, 0, 0);
+    color: white
+  }
+  
+  .playlist-cards {
+    grid-template-columns:auto auto auto auto;
+  }
+  
+  .container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: gray;
+  
+  }
+  
+  .container {
+    position:relative;
+    padding: 16px 16px 16px 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: min-content;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    gap: 10px;
+  
+  
+  }
+  
+  
+  .modal {
+    display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .modal-header {
+    display:grid;
+    padding: 20px;
+    width: 80%;
+  }
+  
+  .modal-header-details{
+    font-family: sans-serif;
+  }
+  
+  #song-img{
+    padding: 8px;
+  }
+  
+  .song-item-info{
+    font-family:sans-serif;
+  }
+  
+  #featured{
+    font-size: 20px;
+  }
+  
+  #song-length{
+    padding:8px;
+    font-family: sans-serif;
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    height: fit-content;
+    background-color:#9452A8;
+    color: white;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .song-item {
+    display:grid;
+    border: groove;
+    height: 100px;
+    padding:10px;
+    gap:40px;
+  }
+  
+  .song-item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  .song-item-details {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .song-item-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #modal-header {
+    display: flex;
+  }
+  
+  .modal-header-image {
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .modal-header-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .no-bullets {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #featuredArtwork {
+    justify-content: left;
+  }
+  
+  #trash {
+    padding-left: 130px;
+  }
+  
+  

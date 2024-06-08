@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Music Playlist Explorer</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
     <header>
-        <!-- Your header content here -->
+        <!-- My header content here -->
+        <h2 id = "page-title">Music Playlist Explorer &#127926;</h2>
+        <nav><a id = "featured" href="featured.html">Featured Playlist</a></nav>
     </header>
-
-    <main> 
-        <!-- Your main content here -->
+    <main>
+        <div id="songsModal" class="modal">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div id="modal-header">
+                    <!--Here is where the modal header goes: Playlist Title, Artist, Image -->
+                </div>
+                <!-- Modal Body -->
+                <div id="modal-body">
+                    <!--Here is where the modal body goes and it has all the song-items: Song Stuff -->
+                </div>
+            </div>
+        </div>
     </main>
-
     <footer>
-        <!-- Your footer content here -->
+        <!-- My footer content here -->
+        &copy; Copyright by Davey :D
     </footer>
     <script src="data/data.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
