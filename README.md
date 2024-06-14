@@ -51,7 +51,7 @@ Deployed Application (optional): [Music Playlist Explorer Deployed Site](ADD_LIN
 
 ### Walkthrough Video
 
-https://www.kapwing.com/videos/6663d5bac299d27bb53e635c
+](https://drive.google.com/file/d/1UXwp9csnPIiawZ6-Ee0qOFkPtzzb8o6E/view?usp=sharing)
 
 ### Reflection
 
